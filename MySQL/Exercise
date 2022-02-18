@@ -1,1 +1,16 @@
-
+create database ORG;
+use ORG;
+create table Workers(WORKER_ID int not null ,WORKER_NAME varchar(20),SALARY int,DEPARTMENT char(25));
+select * from Workers;
+insert into Workers(WORKER_ID,WORKER_NAME,SALARY,DEPARTMENT,workerdoj)values
+(001,'Monika',100000,'HR','14-02-20'),(0002,'Niharika',80000,'Admin','14-06-11'),(003,'Vishal',300000,'Accounts','14-02-20');
+ALTER TABLE Workers ADD workerdoj date;
+update Workers set Salary=90000 where WORKER_NAME='Niharika';
+CREATE INDEX index_name ON Workers (DEPARTMENT);
+select min(SALARY) from Workers;
+select max(SALARY) from Workers;
+select avg(SALARY) from Workers;
+select *from Workers order by DEPARTMENT;
+select WORKER_ID, WORKER_NAME,SALARY, DEPARTMENT from Workers group by WORKER_ID having count(WORKER_ID)>=2;
+select * from Workers order by WORKER_NAME asc;
+select * from Workers order by WORKER_NAME desc;
