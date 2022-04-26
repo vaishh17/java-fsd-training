@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+
+.icon {
+	color: blue;
+}
+.login {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSl0UuI39v5mk4azdGwzMpBMZiB-YuFQbf7Q&usqp=CAU");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+
+.index {
+	background-image: url("https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.medicine {
+	background-image: url("https://images.unsplash.com/photo-1585435557343-3b092031a831?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.patient {
+	background-image: url("https://media.istockphoto.com/vectors/girl-with-dark-hair-works-on-a-laptop-work-from-home-freelance-stay-vector-id1250100531?k=20&m=1250100531&s=612x612&w=0&h=zHZZb29xB9IzSb48F4j-tSK2HIan4K89qcwKHEh7BZY=");
+	background-repeat: no-repeat;
+	background-size: 50%;
+}
+
+.patients {
+	background-color:#cdf8cd;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.admin {
+	background-image: url("https://media.istockphoto.com/vectors/online-diagnosis-online-medical-services-vector-id1213440648?k=20&m=1213440648&s=612x612&w=0&h=HMTCcKbuUwBqqroqc3tJQ3w3pFmly82n8EabwDOteT0=");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.card {
+	background-color: white ;
+	border-radius: 10px;
+}
+
+h1 {
+	font-family: 'Georgia', serif;
+}
+i {
+	color: #000000;
+}
